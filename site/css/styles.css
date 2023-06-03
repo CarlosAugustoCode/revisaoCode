@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fontMochilePopOne: 'Mochiy Pop One', sans-serif;
+    --fontRaleway: 'Raleway', sans-serif;
+    --laranja: #FF8800;
+    --cinza100: #33303E;
+    --cinza10: #F1F0F5;
+}
+
+header {
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cinza10);
+}
+
+.navHeader {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.containerLinks {
+    display: flex;
+    justify-content: space-between;
+    width: 210px;
+    height: 25px;
+}
+
+.link {
+    font-family: var(--fontRaleway);
+    text-decoration: none;
+    color: var(--cinza100);
+    font-weight: bold;
+}
+
+.laranja {
+    color: var(--laranja);
+}
+
+.banner1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.conteudoBanner1 {
+    height: 50%;
+    width: 50%;
+}
+
+h2 {
+    font-family: var(--fontRaleway);
+    font-size: 46px;
+}
+
+p {
+    font-family: var(--fontRaleway);
+    font-size: 22px;
+}
