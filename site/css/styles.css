@@ -60,9 +60,13 @@ header {
 h2 {
     font-family: var(--fontRaleway);
     font-size: 46px;
+    width: 608px;
+    height: 120px;
 }
 
 p {
     font-family: var(--fontRaleway);
     font-size: 22px;
+    width: 592px;
+    height: 94px;
 }
